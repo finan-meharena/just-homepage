@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    /* margin: 0 5px; */
+}
+
+li{
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+
+.hero{
+    background: #d1cbf1;
+    min-height: 100vh;
+    width: 100%;
+    color: rgb(114, 112, 112);
+    /* position: relative; */
+
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+    margin: 0 15px;
+    justify-content: space-between;
+    box-shadow: 0px 5px 5px 5px rgb(91, 87, 87);
+
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    cursor: pointer;
+    
+}
+
+.logo{
+    height: 30px;
+}
+
+.menu-img{
+    height: 30px;
+    padding: 5px;
+}
+
+ul{
+    display: flex;
+    
+}
+
+li{
+    margin-right: 15px;
+    transition: all 0.5s;
+}
+
+li a{
+    overflow: hidden;
+    transition: all 0.4s;
+}
+
+li a:hover{
+    border-bottom: 3px solid green;
+}
+
+.li:hover{
+    border-bottom-color: 2px solid rgb(43, 59, 43);
+}
+
+
+.light{
+    margin-right: 85px;
+    cursor: pointer;
+    color: black;
+    transition: all 0.3s;
+}
+
+.light:hover{
+    /* background-color: gold; */
+    overflow: visible;
+    color: rgb(239, 125, 31);
+    background-color: inherit;
+    transform: scale(1.1);
+}
+
+.light-change{
+    background: rgb(223, 238, 252);
+}
+
+.main{
+    background-color: rgb(218, 217, 217);
+    max-width: 600px;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    padding-top: 30%;
+    height: 400px;
+    border-radius: 7px;
+    border: 1px solid grey;
+    
+}
+
